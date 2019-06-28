@@ -16,23 +16,21 @@
       color: #f5f6f7;
     }
 
-    .video-responsive {
-    position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-    }
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-    .video-responsive iframe,
-    .video-responsive object,
-    .video-responsive embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    }
+
 
 
 
@@ -183,42 +181,29 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
-       
-          <h3>Usuarios</h3>
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/emesonnT2JA"></iframe>
-          </div>
-        </div>
 
-
-
-
-
-        <div class="col-sm-4">
-          <pre>
-            <div class="”video-responsive”">
-            <iframe  src="https://www.youtube.com/embed/sOnqjkJTMaA" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-          </div>
-          <pre>
-        </div>
 
 
         <div class="col-sm-4">
           <h3>Usuarios</h3>
           <div class="embed-responsive embed-responsive-16by9">
-             
-
-<iframe width="460" height="315" src="https://www.youtube.com/embed/sOnqjkJTMaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-
-
+            <iframe width="460" height="315" src="https://www.youtube.com/embed/sOnqjkJTMaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="col-sm-6">
+
+
+        <div class="col-sm-4">
+          <h3>Usuarios</h3>
+
+          <div class="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aMrhkHsn00k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-sm-4">
           <h3>4:3 Responsive Aspect Ratio</h3>
           <div class="embed-responsive embed-responsive-4by3">
               <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
