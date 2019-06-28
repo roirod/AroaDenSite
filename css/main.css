@@ -2,30 +2,6 @@ body { background: #333333; }
 
 html,body { height:100%; padding:0; margin:0; }
 
-.borderradius { 
-  border-radius: 4px !important;
-}
-
-.box500 { height: 500px; overflow: auto; border: 1px solid grey; }
-.box400 { height: 400px; overflow: auto; border: 1px solid grey; }
-.box350 { height: 350px; overflow: auto; border: 1px solid grey; }
-.box300 { height: 300px; overflow: auto; border: 1px solid grey; }
-.box260 { height: 260px; overflow: auto; border: 1px solid grey; }
-.box230 { height: 230px; overflow: auto; border: 1px solid grey; }
-.box200 { height: 200px; overflow: auto; border: 1px solid grey; }
-
-.wid450 { width: 450px !important; }
-.wid350 { width: 350px !important; }
-.wid290 { width: 290px !important; }
-.wid230 { width: 230px !important; }
-.wid200 { width: 200px !important; }
-.wid180 { width: 180px !important; }
-.wid140 { width: 140px !important; }
-.wid110 { width: 110px !important; }
-.wid95 { width: 95px !important; }
-.wid70 { width: 70px !important; }
-.wid50 { width: 50px !important; }
-
 .max150 { 
   max-width: 150px !important;
   max-height: 150px !important;
@@ -39,13 +15,7 @@ html,body { height:100%; padding:0; margin:0; }
   width: 130px !important;
 }
 
-.filena { 
-  text-align: center;
-  padding: 1px; 
-  margin: 7px; 
-}
 
-.visfile { border: 1px yellow solid; min-height: 600px; }
 
 .img_container {
   max-width: 39px !important;
@@ -58,9 +28,6 @@ html,body { height:100%; padding:0; margin:0; }
   width: 50%;
 }
 
-.login_text { 
-  color: #efefef !important;
-}
 
 .pad_top_bot { 
   padding-top: 10px !important;
@@ -72,8 +39,6 @@ img .img_file_view {
   max-height: 36px !important;  
 }
 
-table { table-layout:fixed !important; }
-.div-table-content { height:250px; overflow-y:auto; }
 
 .textder { text-align: right !important; }
 .textcent { text-align: center !important; }
@@ -108,12 +73,6 @@ table { table-layout:fixed !important; }
 .martopbo { margin-top: 140px; margin-bottom: 55px; }
 .marbot { margin-top: 140px; }
 
-.btnbig { 
-font-size: 24px;
-line-height: 1.4;
-border-radius: 6px !important;
-padding: 10px 71px; 
-}
 
 .border2px { border: 2px solid #0cedde; }
 
@@ -163,14 +122,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#520e0e0e', e
   text-shadow:  2px 2px 0px #000;
 }
 
-.rowcentered {
-    text-align:center;
-}
-.colcentered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
