@@ -103,3 +103,7 @@ h3 span {  font-size: 18px !important;  }
   text-shadow:  2px 2px 0px #000;
 }
 
+a {
+    color: #0238ff !important; 
+    text-decoration: none !important; 
+}
