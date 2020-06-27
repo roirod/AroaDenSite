@@ -60,13 +60,32 @@ h3 span {  font-size: 18px !important;  }
 
 .fontwe4 {  font-weight: 400;  }
 
+.carousel-indicators li {
+	width: 15px !important;
+	height: 15px !important;
+	background-color: white !important;
+	border: 2px solid grey !important;
+	border-radius: 15px !important;
+}
+
+.carousel-caption {
+    position: absolute !important;
+    top: -6% !important;
+    text-shadow: 2px 0px 0px #656566;
+	color: grey !important;
+}
+
 .padtopbo100 { padding-top: 100px !important; padding-bottom: 100px !important; }
 .padtopbo80 { padding-top: 80px !important; padding-bottom: 80px !important; }
+.padtopbo50 { padding-top: 50px !important; padding-bottom: 50px !important; }
+.padtopbo30 { padding-top: 30px !important; padding-bottom: 30px !important; }
 
 .martopbo150 { margin-top: 150px !important; margin-bottom: 150px !important; }
 .martopbo100 { margin-top: 100px !important; margin-bottom: 100px !important; }
 .martopbo70 { margin-top: 70px; margin-bottom: 70px; }
 .martopbo50 { margin-top: 50px; margin-bottom: 50px; }
+.martopbo30 { margin-top: 30px; margin-bottom: 30px; }
+
 .martopbo { margin-top: 140px; margin-bottom: 55px; }
 .marbot { margin-top: 140px; }
 
@@ -104,5 +123,5 @@ h3 span {  font-size: 18px !important;  }
 }
 
 a {
-    color: #0238ff !important; 
+    color: #656566 !important;
 }
