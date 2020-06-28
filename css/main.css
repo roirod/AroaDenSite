@@ -63,7 +63,7 @@ h3 span {  font-size: 18px !important;  }
 .carousel-indicators li {
 	width: 15px !important;
 	height: 15px !important;
-	background-color: #777 !important;
+	background-color: #e1e1e1 !important;
 	border: 2px solid #1abc9c !important;
 	border-radius: 15px !important;
 }
@@ -71,10 +71,24 @@ h3 span {  font-size: 18px !important;  }
 .carousel-caption {
     position: absolute !important;
     top: -6% !important;
-    text-shadow: 2px 0px 0px #656566;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 	color: grey !important;
+    font-size: 18px !important;
 }
 
+.navbar-header a, .nav > li > a {
+    color: #a8a8ac !important;
+}
+
+.navbar-header a:hover, .nav > li > a:hover {
+    color: white !important;
+}
+
+a:hover {
+    color: #bfb9b9 !important;
+}
+
+.padtopbo150 { padding-top: 150px !important; padding-bottom: 150px !important; }
 .padtopbo100 { padding-top: 100px !important; padding-bottom: 100px !important; }
 .padtopbo80 { padding-top: 80px !important; padding-bottom: 80px !important; }
 .padtopbo50 { padding-top: 50px !important; padding-bottom: 50px !important; }
