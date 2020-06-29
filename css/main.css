@@ -72,7 +72,7 @@ h3 span {  font-size: 18px !important;  }
     position: absolute !important;
     top: -6% !important;
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-	color: grey !important;
+	color: black !important;
     font-size: 18px !important;
 }
 
@@ -118,6 +118,7 @@ a:hover {
 .mar70 { margin: 70px; }
 
 .pad4 { padding: 4px; }
+.pad6 { padding: 6px; }
 .pad10 { padding: 10px; }
 .pad20 { padding: 20px; }
 .pad30 { padding: 30px; }
@@ -131,6 +132,11 @@ a:hover {
 
 .bgblack { background-color: black !important; }
 .bgwi { background-color: white !important; }
+
+.bgblacktrans { 
+    background-color: #7777776b !important;
+    border-radius: .25em !important;
+}
 
 .textshadow { 
   text-shadow:  2px 2px 0px #000;
