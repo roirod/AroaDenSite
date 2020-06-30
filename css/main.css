@@ -60,6 +60,8 @@ h3 span {  font-size: 18px !important;  }
 
 .fontwe4 {  font-weight: 400;  }
 
+.newscont { max-width: 300px !important;  }
+
 .carousel-indicators li {
 	width: 13px !important;
 	height: 13px !important;
@@ -69,6 +71,12 @@ h3 span {  font-size: 18px !important;  }
 
 .carousel-indicators .active {
     background-color: #1abc9c !important;
+}
+
+a .icon-prev, a .icon-next {
+    color: grey !important;
+    font-size: 80px !important;
+    font-weight: 400 !important;
 }
 
 .carousel-caption {
