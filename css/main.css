@@ -61,11 +61,14 @@ h3 span {  font-size: 18px !important;  }
 .fontwe4 {  font-weight: 400;  }
 
 .carousel-indicators li {
-	width: 15px !important;
-	height: 15px !important;
-	background-color: #e1e1e1 !important;
+	width: 13px !important;
+	height: 13px !important;
 	border: 2px solid #1abc9c !important;
-	border-radius: 15px !important;
+	border-radius: 13px !important;
+}
+
+.carousel-indicators .active {
+    background-color: #1abc9c !important;
 }
 
 .carousel-caption {
@@ -100,6 +103,7 @@ a:hover {
 .martopbo70 { margin-top: 70px; margin-bottom: 70px; }
 .martopbo50 { margin-top: 50px; margin-bottom: 50px; }
 .martopbo30 { margin-top: 30px; margin-bottom: 30px; }
+.martopbo10 { margin-top: 10px; margin-bottom: 10px; }
 
 .martopbo { margin-top: 140px; margin-bottom: 55px; }
 .marbot { margin-top: 140px; }
