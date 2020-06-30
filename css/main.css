@@ -93,6 +93,7 @@ a:hover {
 .padtopbo80 { padding-top: 80px !important; padding-bottom: 80px !important; }
 .padtopbo50 { padding-top: 50px !important; padding-bottom: 50px !important; }
 .padtopbo30 { padding-top: 30px !important; padding-bottom: 30px !important; }
+.padtopbo10 { padding-top: 10px !important; padding-bottom: 10px !important; }
 
 .martopbo150 { margin-top: 150px !important; margin-bottom: 150px !important; }
 .martopbo100 { margin-top: 100px !important; margin-bottom: 100px !important; }
@@ -143,5 +144,5 @@ a:hover {
 }
 
 a {
-    color: #656566 !important;
+    color: #07f068 !important;
 }
