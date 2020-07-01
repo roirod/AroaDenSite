@@ -77,6 +77,7 @@ a .icon-prev, a .icon-next {
     color: grey !important;
     font-size: 80px !important;
     font-weight: 400 !important;
+    text-shadow: 0px 0px 11px rgba(42, 150, 68, 1);
 }
 
 .carousel-caption {
