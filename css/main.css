@@ -90,9 +90,18 @@ a .icon-prev, a .icon-next {
 
 .navbar-header a, .nav > li > a {
     color: #a8a8ac !important;
+    border-bottom: 2px solid #0b0a0a !important;
 }
 
-.navbar-header a:hover, .nav > li > a:hover {
+.navbar-header a:hover, .nav > li > a:hover, .nav.navbar-nav > li.active a:hover {
+    color: white !important;
+    background-color: #7777776b !important;
+    border-bottom: 2px solid white !important;    
+}
+
+.nav.navbar-nav > li.active a {
+    background-color: #c1c4c187 !important;
+    border-bottom: 2px solid #c1c4c187 !important;       
     color: white !important;
 }
 
